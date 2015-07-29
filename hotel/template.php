@@ -18,4 +18,7 @@ function hotel_preprocess_html(&$vars) {
       $vars['classes_array'][] = 'page-404-body';
     }
   }
+  
+  /* Add custom fonts */
+  drupal_add_css('http://fonts.googleapis.com/css?family=Oswald:400,300',array('type' => 'external'));
 }

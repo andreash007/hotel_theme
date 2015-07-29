@@ -1,0 +1,54 @@
+body.front {background: #fff; font: 18px/24px "Oswald", Arial, Helvetica, sans-serif; font-weight: 300;}
+
+/* Header */
+#header-wrapper .container {margin-bottom: 0;}
+
+/* Main Menu */
+.front #menu-bar-wrapper .container {width: auto;}
+
+.front #menu-bar-wrapper {float: right;}
+
+@media screen and (min-width: 1170px) {
+  .front #menu-bar-wrapper {
+    clear: none; margin: -40px 0 20px 0;
+  }
+}
+
+.front #menu-bar-wrapper .region-menu-bar,
+.front .block .sf-menu.sf-style-hotel a {background: transparent; color: #595959; text-transform: uppercase; font-size: 18px; font-weight: 300;}
+
+.front .block .sf-menu.sf-style-hotel a.active,
+.front .block .sf-menu.sf-style-hotel a:hover,
+.front .block .sf-menu.sf-style-hotel .active-trail .sf-depth-1 {background: transparent; color: #7ea3b6;}
+
+/* Search */
+.front .block-search {background: transparent; border: none;}
+
+@media screen and (min-width: 1170px) {
+  .front .block-search {width: 460px;}
+  .front #header #search-block-form .form-text {width: 390px;}
+}
+
+/* Slideshow */
+.front #slideshow-wrapper > div.container,
+.front #views_slideshow_cycle_teaser_section_slideshow-block_1,
+.front .views_slideshow_slide,
+.front .views_slideshow_slide img {width: 100%!important;}
+
+.front #slideshow-wrapper {margin-left: -20px;}
+.front #slideshow-wrapper > div.container {margin-right: -10px;}
+
+/* SMM */
+.front .at-share-tbx-element.addthis_20x20_style .at-share-btn {max-width: inherit; max-height: inherit;}
+.front .addthis_20x20_style .at4-icon {height: 45px; width: 45px;}
+.front .addthis_20x20_style .at4-icon {background-size: inherit!important; background-position-x: 50%!important;}
+.front .addthis_20x20_style .aticon-compact {height: 20px; width: 20px; background-size: 20px!important;}
+
+/* Footer */
+.front #footer:before {content: ""; position: absolute; top: 0; left: 10px; right: 10px; height: 1px; background: #b5b9bc;}
+.front #footer .logo {display: block; margin: -11px auto 3px; width: 131px; background: #fff; padding: 0 28px 0 25px; position: relative; z-index: 2;}
+.front #footer .logo > a {display: block; text-align: center;}
+.front #footer .logo-text {min-width: 150px; color: #465058; font-weight: 300;}
+.front #footer .logo > a:hover .logo-text {color: #7ea3b6;}
+.front #footer .region-footer {margin: 0 auto; display: table;}
+.front #footer-wrapper .block {max-width: 300px; text-align: center; width: auto; color: #465058;}

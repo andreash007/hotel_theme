@@ -18,6 +18,7 @@ stylesheets[all][] = 'css/blocks.css'
 stylesheets[all][] = 'css/navigation.css'
 stylesheets[all][] = 'css/fonts.css'
 stylesheets[all][] = 'css/views.css'
+stylesheets[all][] = 'css/front-page.css'
 
 ; Seperate CSS3 to css3.css
 stylesheets[all][] = 'css/css3.css'
